@@ -31,3 +31,4 @@ ${RF_LOSS}        0.5
     Should Be True    100<${FREQ} < 200
     Log    The result is ${FREQ}    # 在日志文件中记录结果信息
     Set Test Message    ${FREQ}dBm    # 将测试结果显示在测试报告的message表格中
+    
