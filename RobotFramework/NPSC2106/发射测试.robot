@@ -24,3 +24,10 @@ ${RF_LOSS}        0.5
     Should Be True    100<${FREQ} < 500
     Log    The result is ${FREQ}    # 在日志文件中记录结果信息
     Set Test Message    ${FREQ}dBm    # 将测试结果显示在测试报告的message表格中
+发射功率3
+    [Documentation]    说明：测试发射功率最小值
+    ...    指标：-40dBm±1dBm
+    [Tags]    TX    发射功率    ${FREQ}MHz
+    Should Be True    100<${FREQ} < 500
+    Log    The result is ${FREQ}    # 在日志文件中记录结果信息
+    Set Test Message    ${FREQ}dBm    # 将测试结果显示在测试报告的message表格中
