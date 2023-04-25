@@ -40,3 +40,4 @@ ${RF_LOSS}        0.5
     Set Test Message    ${FREQ}dBm    # 将测试结果显示在测试报告的message表格中
     
     
+    
